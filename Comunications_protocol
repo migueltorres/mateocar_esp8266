@@ -1,0 +1,19 @@
+Comunications protocol and packet format
+
+remote sends:
+  throttle channel
+  steering channel
+  mode (remote, car, trainer)
+  horn
+  lights
+  
+car sends:
+  telemetry
+  status
+  
+  
+remote packets sent at 60Hz
+status packets sent at ¿10Hz?
+
+esp8266 can be wifi to serial gateway or full controller?
+implement failsafe behavior in case of communication lost
